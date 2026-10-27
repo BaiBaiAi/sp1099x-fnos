@@ -47,3 +47,49 @@ GitHub 的绿色 Code → Download ZIP 只包含文档与可浏览源码，**不
 原始 ZIP 不含开发者的 NAS 账号、Wi-Fi 配置、维护 SSH 私钥或用户文件。运行后新增的 `backups/` 和 `work/` 属于你本机的私有内容，可能包含校准分区和密钥。**给别人分享原始 ZIP，不能把用过的目录连同这两个文件夹重新打包。**
 
 详细功能、已知限制、首次设置、RNDIS 驱动处理、Wi-Fi 配置、私有 SMB 共享及 Android 回退，均见 `docs/FLASHING-ZH.md`。验证范围见 `docs/VALIDATION-ZH.md`。
+
+## 实机运行参考图片
+
+以下图片由开发设备提供，用于对照界面和适配效果。图中的设备 ID、磁盘序列号、MAC、IP、Wi-Fi 名称、电量、运行时间及应用状态均为拍摄时的示例，不是新刷设备的默认值。验证范围仍以 [验证说明](docs/VALIDATION-ZH.md) 为准。
+
+### 设备与系统信息
+
+开发设备的 fnOS 版本、CPU、内存、系统空间和网络信息。
+
+![设备与系统信息](docs/images/device-info.png)
+
+### 内置存储识别
+
+内置 eMMC 在兼容界面中的磁盘与分区显示；界面的 SSD 标签不代表设备使用独立 SSD。
+
+![内置存储识别](docs/images/internal-storage.png)
+
+### Wi-Fi 连接状态
+
+wlan0 连接后的网络设置示例；图中 SSID 和 IP 仅供参考。
+
+![Wi-Fi 连接状态](docs/images/wifi-connected.png)
+
+### 内置电池 UPS
+
+内置电池映射到 UPS 页面后的电量、供电类型、温度和续航估算示例；续航随电池状态与负载变化。
+
+![内置电池 UPS](docs/images/battery-ups.png)
+
+### Docker 管理界面
+
+Docker 服务开关与存储位置示例；此截图中没有运行中的容器，不能仅据截图判断容器运行情况。
+
+![Docker 管理界面](docs/images/docker-overview.png)
+
+### 应用中心与应用界面
+
+开发设备的应用安装及界面示例；截图中的应用和账号不预置在分发固件中。
+
+![应用中心与应用界面](docs/images/app-center.png)
+
+### 平板本机日志屏幕
+
+实机显示系统状态和滚动日志的照片；这是只读日志控制台。
+
+![平板本机日志屏幕](docs/images/tablet-log-console.png)

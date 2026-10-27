@@ -1,0 +1,6 @@
+* text=auto
+*.sh text eol=lf
+*.go text eol=lf
+*.cmd text eol=crlf
+*.gz binary
+*.bz2 binary

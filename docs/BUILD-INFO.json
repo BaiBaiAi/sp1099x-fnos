@@ -1,0 +1,39 @@
+{
+  "release": "SP1099X-fnOS-1.2.0701-r1-20261027",
+  "created_cst": "2026-10-27T10:16:07.915240+08:00",
+  "classification": "candidate; no second-device full flash/rollback acceptance",
+  "rootfs_audit": {
+    "rootfs_allowlist_audit": "passed",
+    "regular_files_scanned": 79248,
+    "donor_accounts_wifi_keys_home_nvdata": "absent",
+    "shadow_root": "locked",
+    "pinned_binaries": "matched",
+    "shell_syntax": "passed",
+    "runtime_mount_directories": "present"
+  },
+  "images_audit": {
+    "squashfs_critical_files": "identical_to_audited_tree",
+    "android_images": "3 valid v1 headers and 32MiB sizes",
+    "kernel": "4.9.117-sp1099x-bringup #19",
+    "main_boot_sha256": "02eae6ddd5ccad94e10862759755ee1d27681f8ac08c728316d0119e97193091"
+  },
+  "windows_portability": {
+    "ascii_with_spaces_relocation": "passed",
+    "bundled_adb_dll_load": "passed",
+    "cjk_executable_path": "rejected_before_device_tools",
+    "cjk_current_directory": "rejected_before_device_tools",
+    "cjk_backup_path": "rejected_before_device_tools"
+  },
+  "frontend_unit_tests": "5 passed",
+  "sparse_gpt_round_trip": "passed; original 37 partition UUIDs preserved",
+  "fresh_arm_vendor_schema": "users=0, mount=0",
+  "firstboot_registration_twice": "users=0, mount=1",
+  "official_rsa_regeneration": "observed in isolated ARM runtime",
+  "payload_sha256": {
+    "boot.img": "02eae6ddd5ccad94e10862759755ee1d27681f8ac08c728316d0119e97193091",
+    "hardware.json": "3383804c1de42192fb903ff794f1381f88775bf3f4f3a362e4d6c1635ec5231b",
+    "installer-boot.img": "9ebf3bddf582bf009f4d12c7680607436c1e3884f45dc1c5e037dd7de6d642fd",
+    "installer-recovery.img": "7fcbdbcf40378cb896795596772bc11a130d7df0f3e8a56862e45f712a211797",
+    "rootfs.squashfs": "048cf508d77866e6d502b2b4bbf949c1be991a50a3f886b36e24162128773bd7"
+  }
+}

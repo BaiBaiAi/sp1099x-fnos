@@ -1,0 +1,8 @@
+work/
+backups/
+*.img
+*.squashfs
+*.exe
+*.dll
+*.zip
+source/kernel-source.tar.gz

@@ -1,0 +1,16 @@
+[Unit]
+Description=Register this device's newly created native data volume
+Requires=postgresql@15-main.service trim_init.service
+Wants=trim_main.service
+After=postgresql@15-main.service trim_init.service trim_main.service
+Before=trim_app_center.service
+RequiresMountsFor=/vol1
+ConditionPathExists=!/var/lib/sp1099x/release-firstboot.done
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/sp1099x-release/firstboot.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

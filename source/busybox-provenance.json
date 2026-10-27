@@ -1,0 +1,6 @@
+{
+  "binary_version": "1.36.1.1 topjohnwu 2024-10-06",
+  "base": "BusyBox 1.36.1",
+  "kitchen_revision_before_binary_release": "14d189ea3070a8167b3576bf83fe070d4a3441af",
+  "note": "Date-bounded source provenance; binary not independently rebuilt."
+}

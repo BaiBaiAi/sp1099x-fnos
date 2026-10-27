@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "model": "sp1099x",
+  "platform": "mt6765",
+  "sectors": 60620800,
+  "dtbo_sha256": "71ec1b506b2dba37183706589c04e6aa4458aa3e8ee57d6d23bea8afcbfe8842",
+  "recovery_sha256": "c7b08c41bc635c83c6249608a7b8b0a2ce33d73ddf4033b7eb7540faa187a04b",
+  "partitions": [
+    {
+      "number": 1,
+      "name": "boot_para",
+      "start": 64,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 2,
+      "name": "recovery",
+      "start": 2112,
+      "size": 65536,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 3,
+      "name": "para",
+      "start": 67648,
+      "size": 1024,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 4,
+      "name": "expdb",
+      "start": 68672,
+      "size": 40960,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 5,
+      "name": "frp",
+      "start": 109632,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 6,
+      "name": "nvcfg",
+      "start": 111680,
+      "size": 65536,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 7,
+      "name": "nvdata",
+      "start": 177216,
+      "size": 131072,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 8,
+      "name": "metadata",
+      "start": 308288,
+      "size": 65536,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 9,
+      "name": "protect1",
+      "start": 373824,
+      "size": 16384,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 10,
+      "name": "protect2",
+      "start": 390208,
+      "size": 19392,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 11,
+      "name": "seccfg",
+      "start": 409600,
+      "size": 16384,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 12,
+      "name": "sec1",
+      "start": 425984,
+      "size": 4096,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 13,
+      "name": "proinfo",
+      "start": 430080,
+      "size": 6144,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 14,
+      "name": "md1img",
+      "start": 436224,
+      "size": 204800,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 15,
+      "name": "spmfw",
+      "start": 641024,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 16,
+      "name": "scp1",
+      "start": 643072,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 17,
+      "name": "scp2",
+      "start": 645120,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 18,
+      "name": "sspm_1",
+      "start": 647168,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 19,
+      "name": "sspm_2",
+      "start": 649216,
+      "size": 2048,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 20,
+      "name": "gz1",
+      "start": 651264,
+      "size": 32768,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 21,
+      "name": "gz2",
+      "start": 684032,
+      "size": 32768,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 22,
+      "name": "nvram",
+      "start": 716800,
+      "size": 131072,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 23,
+      "name": "lk",
+      "start": 847872,
+      "size": 4096,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 24,
+      "name": "lk2",
+      "start": 851968,
+      "size": 4096,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 25,
+      "name": "boot",
+      "start": 856064,
+      "size": 65536,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 26,
+      "name": "logo",
+      "start": 921600,
+      "size": 40960,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 27,
+      "name": "dtbo",
+      "start": 962560,
+      "size": 16384,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 28,
+      "name": "tee1",
+      "start": 978944,
+      "size": 10240,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 29,
+      "name": "tee2",
+      "start": 989184,
+      "size": 10240,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 30,
+      "name": "vendor",
+      "start": 999424,
+      "size": 1638400,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 31,
+      "name": "system",
+      "start": 2637824,
+      "size": 6291456,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 32,
+      "name": "vbmeta",
+      "start": 8929280,
+      "size": 16384,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 33,
+      "name": "custom",
+      "start": 8945664,
+      "size": 1032192,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 34,
+      "name": "cache",
+      "start": 9977856,
+      "size": 884736,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 35,
+      "name": "userdata",
+      "start": 10862592,
+      "size": 49637343,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 36,
+      "name": "otp",
+      "start": 60499935,
+      "size": 88064,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    },
+    {
+      "number": 37,
+      "name": "flashinfo",
+      "start": 60587999,
+      "size": 32768,
+      "type": "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
+    }
+  ]
+}
